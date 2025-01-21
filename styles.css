@@ -1,3 +1,5 @@
+/* styles.css */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -64,4 +66,29 @@ footer {
     margin-top: 40px;
     font-size: 0.9rem;
     color: #aaaaaa;
+}
+
+#demo-sound-list {
+    list-style-type: none;
+    padding: 0;
+    display: none;
+    text-align: center;
+}
+
+#demo-sound-list li {
+    margin: 10px 0;
+}
+
+#demo-sound-list button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #00ffcc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#demo-sound-list button:hover {
+    background-color: #00cc99;
 }

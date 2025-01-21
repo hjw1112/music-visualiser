@@ -24,10 +24,17 @@
 
         <section id="input-method">
             <h2>Choose Music Input</h2>
-            <button id="library-button">Choose From Library</button>
+            <button id="library-button">Choose from Library</button>
             <button id="microphone-button">Use Microphone</button>
             <button id="upload-button">Upload Audio File</button>
             <input type="file" id="audio-upload" accept="audio/*" style="display: none;">
+        </section>
+
+        <section id="demo-sounds" style="display: none;">
+            <h2>Select a Demo Sound</h2>
+            <button onclick="playDemoSound('sounds/sound1.mp3')">Sound 1</button>
+            <button onclick="playDemoSound('sounds/sound2.mp3')">Sound 2</button>
+            <button onclick="playDemoSound('sounds/sound3.mp3')">Sound 3</button>
         </section>
 
         <section id="visualizer">
@@ -36,7 +43,7 @@
     </main>
 
     <footer>
-        <p>&coopy; 2025 Music Visualization</p>
+        <p>&copy; 2025 Music Visualization</p>
     </footer>
 
     <script src="script.js"></script>
