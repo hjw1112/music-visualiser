@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Music Visualization</h1>
+    </header>
+
+    <main>
+        <section id="theme-selection">
+            <h2>Choose a Theme</h2>
+            <select id="theme-selector">
+                <option value="retro">Retro</option>
+                <option value="cyberpunk">Cyberpunk</option>
+                <option value="lofi">Lo-fi</option>
+                <option value="classical">Classical</option>
+            </select>
+        </section>
+
+        <section id="input-method">
+            <h2>Choose Music Input</h2>
+            <button id="library-button">Choose From Library</button>
+            <button id="microphone-button">Use Microphone</button>
+            <button id="upload-button">Upload Audio File</button>
+            <input type="file" id="audio-upload" accept="audio/*" style="display: none;">
+        </section>
+
+        <section id="visualizer">
+            <canvas id="visualization-canvas"></canvas>
+        </section>
+    </main>
+
+    <footer>
+        <p>&coopy; 2025 Music Visualization</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
