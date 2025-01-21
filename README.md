@@ -86,3 +86,8 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 Enjoy creating mesmerizing audio visualizations!
 
+Please show your support by giving me your vote on highseas and also giving me a star on github (:
+
+Thank you for trying my project and if you're reading this, have a blessed day :)
+
+
